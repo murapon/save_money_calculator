@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locale">ja</string>
+    <string name="app_name">お買い得計算機</string>
+    <string name="money_unit">円</string>
+    <string name="dollar_unit"></string>
+    <string name="point_unit">ポイント</string>
+    <string name="tab_discount">割引</string>
+    <string name="tab_weight">同じ重さ</string>
+    <string name="tab_point">ポイント</string>
+    <string name="tab_consumption_tax">消費税</string>
+    <string name="discount_explanation">割引後の金額や、一定の重さ(100)の時の金額を計算します｡</string>
+    <string name="discount_pre_price">金額：</string>
+    <string name="discount_name">割引：</string>
+	<string name="discount_prompt">割引の種別を指定して下さい</string>
+    <string-array name="discount_array">
+        <item>%割引</item>
+        <item>円引</item>
+        <item>%割増</item>
+    </string-array>
+    <string name="discount_weight">重さ(g,ml)：</string>
+    <string name="discount_weight_unit">g,ml</string>
+    <string name="discount_price_name">支払い金額：</string>
+    <string name="discount_profit_name">得する金額：</string>
+    <string name="discount_weight_name">100g,mlの場合：</string>
+    <string name="discount_error">金額を入力して下さい｡</string>
+    <string name="button_discount_calc">計算する</string>
+    <string name="button_discount_reset">リセット</string>
+
+    <string name="per_explanation">同じ重さだった場合の金額を計算し、比較することができます｡</string>
+    <string name="per_price">金額</string>
+    <string name="per_weight_name">重さ</string>
+    <string name="per_weight_per_price"> 重さ[%per]当たり</string>
+    <string name="per_weight_standard">重さの比較単位：</string>
+	<string name="standard_prompt">重さの比較単位を指定して下さい</string>
+    <string-array name="standard_array">
+        <item>100</item>
+        <item>1</item>
+        <item>10</item>
+        <item>1000</item>
+    </string-array>
+    <string name="per_error">金額と重さをペアで入力して下さい｡</string>
+    <string name="button_per_calc">計算する</string>
+    <string name="button_per_reset">リセット</string>
+    <string name="point_explanation">ポイント還元される金額を計算します｡</string>
+    <string name="point_price">金額：</string>
+    <string name="point_rate">ポイント還元率：</string>
+    <string name="point_percent_unit">%</string>
+    <string name="point_get_point">入手ポイント：</string>
+    <string name="point_exclude_point">ポイントを除いた額：</string>
+    <string name="point_error">金額とポイント還元率を入力して下さい｡</string>
+    <string name="button_point_calc">計算する</string>
+    <string name="button_point_reset">リセット</string>
+
+    <string name="tax_explanation">税抜き、税込みそれぞれで消費税計算を行います。</string>
+    <string name="include_tax">税込</string>
+    <string name="without_tax">税抜</string>
+    <string name="button_tax_5_percent">5%</string>
+    <string name="button_tax_8_percent">8%</string>
+    <string name="button_tax_10_percent">10%</string>
+    <string name="tax_error">金額を入力して下さい｡</string>
+    <string name="price">価格：</string>
+    <string name="consumption_tax">消費税：</string>
+    <string name="total">総額：</string>
+</resources>

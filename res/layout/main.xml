@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+<TabHost
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </TabWidget>
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:paddingTop="65dp">
+        <LinearLayout
+            android:id="@+id/tab1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <include android:id="@+id/discount" layout="@layout/discount" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/tab2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <include android:id="@+id/per" layout="@layout/per" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/tab3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <include android:id="@+id/point" layout="@layout/point" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/tab4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <include android:id="@+id/consumption_tax" layout="@layout/consumption_tax" />
+        </LinearLayout>
+    </FrameLayout>
+</TabHost>
+<LinearLayout
+    android:id="@+id/admob"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"/>
+<jp.co.nobot.libAdMaker.libAdMaker
+    android:id="@+id/admakerview"
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:layout_height="0dip"
+    android:scrollbars="none" />
+</LinearLayout>

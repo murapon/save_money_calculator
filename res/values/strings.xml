@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locale">us</string>
+    <string name="app_name">Save Money Calc</string>
+    <string name="money_unit"></string>
+    <string name="dollar_unit">＄</string>
+    <string name="point_unit">Point</string>
+    <string name="tab_discount">Discount</string>
+    <string name="tab_weight">Per Weight</string>
+    <string name="tab_point">Point</string>
+    <string name="tab_consumption_tax">Tax</string>
+    <string name="discount_explanation">The amount of money after it discounts it and the amount of money at constant weight(100) are calculated.</string>
+    <string name="discount_pre_price">Price($)：</string>
+    <string name="discount_name">Discount：</string>
+	<string name="discount_prompt">Please specify the type of the discount.</string>
+    <string-array name="discount_array">
+        <item>%Off</item>
+        <item>Dollar Off</item>
+        <item>%Surcharge</item>
+    </string-array>
+    <string name="discount_weight">Weight(g,ml)：</string>
+    <string name="discount_weight_unit">g,ml</string>
+    <string name="discount_price_name">payout price：</string>
+    <string name="discount_profit_name">profit price：</string>
+    <string name="discount_weight_name">In case of 100g：</string>
+    <string name="discount_error">Please input the amount of money.</string>
+    <string name="button_discount_calc">calculate</string>
+    <string name="button_discount_reset">reset</string>
+
+    <string name="per_explanation">The amount of money when it is the same weight is calculated, and it is possible to compare it.</string>
+    <string name="per_price">Price($)</string>
+    <string name="per_weight_name">Weight</string>
+    <string name="per_weight_per_price">Per [%per] / weight</string>
+    <string name="per_weight_standard">Value of weight:</string>
+	<string name="standard_prompt">Please specify the comparison value of weight.</string>
+    <string-array name="standard_array">
+        <item>100</item>
+        <item>1</item>
+        <item>10</item>
+        <item>1000</item>
+    </string-array>
+    <string name="per_error">Please input the amount of money and weight by the pair.</string>
+    <string name="button_per_calc">calculate</string>
+    <string name="button_per_reset">reset</string>
+    <string name="point_explanation">The amount of money obtained as a point is calculated.</string>
+    <string name="point_price">Price：</string>
+    <string name="point_rate">Reduction Rate：</string>
+    <string name="point_percent_unit">%</string>
+    <string name="point_get_point">Obtained point：</string>
+    <string name="point_exclude_point">excluded：</string>
+    <string name="point_error">Please input the amount of money and the point reduction rate.</string>
+    <string name="button_point_calc">calculate</string>
+    <string name="button_point_reset">reset</string>
+
+    <string name="tax_explanation"></string>
+    <string name="include_tax">Include Tax</string>
+    <string name="without_tax">Without Tax</string>
+    <string name="button_tax_5_percent">5%</string>
+    <string name="button_tax_8_percent">8%</string>
+    <string name="button_tax_10_percent">10%</string>
+
+    <string name="tax_error">Please input the amount of money.</string>
+    <string name="price">Price：</string>
+    <string name="consumption_tax">Tax：</string>
+    <string name="total">Total：</string>
+</resources>
